@@ -17,15 +17,15 @@
     <div class="container">
         <header>
             <div class="logo">
-                <a href="#">
+                <a href="/">
                     <img class="logo" src="{% static 'main/img/logo.png' %}" alt="logo">
                 </a>
             </div>
             <div class="menu">
                 <ul>
-                    <li class="li-text"><a href="/Catalog">каталог</a></li>
-                    <li class="li-text"><a href="/Help">помощь</a></li>
-                    <li class="li-text"><a href="/Payment">о нас</a></li>
+                    <li class="li-text"><a href="/catalog">каталог</a></li>
+                    <li class="li-text"><a href="/help">помощь</a></li>
+                    <li class="li-text"><a href="/about">о нас</a></li>
                 </ul>
             </div>
             <div class="menu-2">
@@ -38,5 +38,6 @@
             </div>
         </header>
     </div>
+    {%block content%}{%endblock%}
 </body>
 </html>
