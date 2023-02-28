@@ -1,0 +1,21 @@
+.a-link {
+    outline: none;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+a:link {
+    color: #13084a;
+}
+
+.a-link:hover {
+    border-bottom: 2px dashed #ffff;
+    padding-bottom: 3px;
+    background: #13084a;
+}
+
+.a-link:active {
+    background: #13084a;
+    color: #0094ff;
+}
