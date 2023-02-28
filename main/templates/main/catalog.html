@@ -4,12 +4,14 @@
 
 
 {%block content%}
+<head>
+    <link rel="stylesheet" href="{% static 'main/css/catalog.css' %}">
+</head>
 
-
-<contair class="index_container">
+<contair class="index_container" >
     
         <h2>Страница каталога</h2>
-        <table>
+        <table align="center">
             <tr>
                 <td><img class="li_img" src="{% static 'main/img/catalog/Tshirt.png' %}" width="300" height="300" alt="tshirt"></td>
                 <td><img class="li_img" src="{% static 'main/img/catalog/socks.png' %}" width="300" height="300" alt="socks"></td>
