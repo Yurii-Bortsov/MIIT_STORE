@@ -1,15 +1,26 @@
-{% extends 'main/layout.html' %}
+{% load static %}
+{% include 'main/layout.html' %}
 
-{% block title %} catalog {% endblock %}
+
 
 {%block content%}
 
 
-<div class="index_container">
-    <div class="index">
+<contair class="index_container">
+    
         <h2>Страница каталога</h2>
-    </div>
-</div>
+        <table>
+            <tr>
+                <td><img class="li_img" src="{% static 'main/img/catalog/Tshirt.png' %}" width="300" height="300" alt="tshirt"></td>
+                <td><img class="li_img" src="{% static 'main/img/catalog/socks.png' %}" width="300" height="300" alt="socks"></td>
+            </tr>
+            <tr>
+                <td><img class="li_img" src="{% static 'main/img/catalog/Notebook.png' %}" width="300" height="300" alt="tshirt"></td>
+                <td><img class="li_img" src="{% static 'main/img/catalog/Sticker Mockup.png' %}" width="300" height="300" alt="socks"></td>
+
+            </tr>
+        </table>
+</contair>
 
 
 
